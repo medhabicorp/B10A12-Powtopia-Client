@@ -52,8 +52,8 @@ const Navbar = () => {
   };
 
   return (
-    <AppBar position="static">
-      <Container maxWidth="xl">
+    <AppBar position="fixed z-10">
+      <Container maxWidth="xl ">
         <Toolbar disableGutters>
           {/* LOGO */}
           <img
